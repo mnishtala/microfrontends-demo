@@ -1,0 +1,35 @@
+<h2>Products MFE</h2>
+
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Name</th>
+      <th scope="col">Category</th>
+      <th scope="col">Price(USD)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>iPhone</td>
+      <td>smartphones</td>
+      <td>800</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Macbook M1 Pro</td>
+      <td>laptops</td>
+      <td>1500</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td>Samsung S23</td>
+      <td>smartphones</td>
+      <td>820</td>
+    </tr>
+  </tbody>
+</table>
+
+<input type="text" [(ngModel)]="product">
+<button (click)="sendData()">Send To Gallery</button>
